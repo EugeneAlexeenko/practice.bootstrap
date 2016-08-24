@@ -1,64 +1,233 @@
+/*
+!*==========  Mobile First  ==========*!
+
+!* Custom, iPhone Retina *!
+@media only screen and (min-width : 320px){
+
+}
+!**!
+
+
+!* Extra Small Devices, Phones *!
+@media only screen and (min-width : 480px){
+
+}
+!**!
+
+
+!* Small Devices, Tablets *!
+@media only screen and (min-width : 768px){
+
+}
+!**!
+
+
+!* Medium Devices, Desktops *!
+@media only screen and (min-width : 992px){
+
+}
+!**!
+
+
+!* Large Devices, Wide Screens *!
+@media only screen and (min-width : 1200px){
+  
+}
+!**!*/
 
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
-	/**/
+  .large-block {
+    padding-top: 155px;
+  }
+
+  .images__item-1 h2 {
+    font-size: 30px;
+  }
 }
+/**/
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
-	/**/
+  .large-block{
+    height: 470px;
+    padding-top: 125px;
+    & h1 {
+      font-size: 45px;
+    }
+    & p {
+      font-size: 30px;
+    }
+    & a {
+      font-size: 30px;
+    }
+  }
+
+  .images__item-1,
+  .images__item-2 {
+    height: 180px;
+    line-height: 180px;
+  }
+  .images__item-1 h2 {
+    font-size: 25px;
+  }
+
+  .images__item-3,
+  .images__item-4,
+  .images__item-5 {
+    height: 200px;
+    line-height: 200px;
+  }
+  .images__item-2,
+  .images__item-3 {
+    font-size: 30px;
+  }
 }
 
+.text-content__item p {
+  font-size: 12px;
+}
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px){
-	/**/
-}
+@media only screen and (max-width : 768px) {
+  .main-nav {
+    & .navbar-header {
+      height: 74px;
+    }
+    & h2 {
+      display: block;
+      font-size: 20px;
+      margin-left: 40px;
+      text-transform: capitalize;
+    }
+   .main-nav__menu {
+     padding: 0;
+     & li {
+       display: block;
+       background: #373c3f;
+       text-align: center;
+     }
+     & li:hover {
+       background: #cecece;
+     }
+     & a{
+       display: block;
+       color: #ffffff;
+     }
+     & a:hover {
+       color: #373c3f;
+     }
+   }
+  }
+  .large-block{
+    height: 350px;
+    padding-top: 85px;
+    & h1 {
+      font-size: 35px;
+    }
+    & p {
+      font-size: 25px;
+    }
+    & a {
+      font-size: 20px;
+    }
+  }
 
+  .images__item-3,
+  .images__item-4,
+  .images__item-5 {
+    height: 554px;
+    line-height: 556px;
+  }
+  .image__item-1{
+    font-size: 20px;
+  }
+  .images__item-3 {
+    font-size: 60px;
+  }
+
+  .text-content__item p {
+    font-size: 22px;
+    line-height: 44px;
+  }
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-	/**/
+  /**/
 }
-
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px){
-	/**/
-}
+/**/
+  .my-btn{
+    width: 37px;
+    height: 37px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .main-nav {
+    & .navbar-header {
+    height: 37px;
+    }
+    & h2 {
+      font-size: 10px;
+      margin: 13px;
+      margin-left: 30px;
+    }
+  }
+  .main-nav__menu {
+    padding: 0;
+  }
 
+  .large-block{
+    height: 190px;
+    padding-top: 28px;
+    & h1 {
+      font-size: 20px;
+    }
+    & p {
+      font-size: 14px;
+    }
+    & a {
+      font-size: 12px;
+    }
+  }
+  .images__item-1,
+  .images__item-2 {
+    height: 77px;
+    line-height: 77px;
+  }
 
-/*==========  Mobile First  ==========*/
+  .images__item-3,
+  .images__item-4,
+  .images__item-5 {
+    height: 277px;
+    line-height: 277px;
+  }
+  .images__item-1 h2{
+    font-size: 10px;
+  }
+  .images__item-3 {
+    font-size: 60px;
+  }
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px){
-	/**/
-}
+  .text-content__wrapper {
+    padding: 36px;
+  }
 
+  .text-content h2 {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px){
-	/**/
-}
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px){
-	/**/
-}
-
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px){
-	/**/
-}
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px){
-	/**/
+  .text-content__item p {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 
